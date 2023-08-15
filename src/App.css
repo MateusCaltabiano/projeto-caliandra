@@ -13,7 +13,3 @@ a {
     color: unset;
     text-decoration: none;
 }
-
-.bg {
-  background: linear-gradient(0deg, rgba(255, 152, 152, 1) 0%, rgba(255, 255, 255, 1) 20%);
-}

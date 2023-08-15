@@ -1,12 +1,14 @@
+.caliandra__header {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 95%, rgba(255, 152, 152, 1) 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
 .caliandra__header-img {
+  padding: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
-}
-
-.caliandra__header-background {
-    background-color: #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
