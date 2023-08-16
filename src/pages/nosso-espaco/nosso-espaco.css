@@ -1,0 +1,28 @@
+body {
+  flex-direction: column;
+  font-family: var(--font-family);
+}
+
+.NossoEspaco {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.NossoEspaco_bg {
+  flex: 1;
+}
+
+.NossoEspaco_h1 {
+  padding-top: 25px;
+  font-size: 52px;
+  text-align: center;
+  color: salmon;
+}
+
+.NossoEspaco_p {
+  text-indent: 5%;
+  font-size: 24px;
+  padding: 50px;
+  text-align: justify;
+}

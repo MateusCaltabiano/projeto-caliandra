@@ -1,24 +1,11 @@
 .caliandra__footer {
-    display: flex;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 90%, rgba(255, 152, 152, 1) 100%);    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+  width: 100%;
 }
 
 .caliandra__footer-img {
-    display: flex;
-    height:100px;
-    padding: 10px;
-}
-
-.caliandra__footer-elements {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-}
-
-.caliandra__footer-elements p {
-    margin: 1rem;
-    margin-top: 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  height: 200px;
 }

@@ -10,7 +10,6 @@ const App = () => {
         <Header />
         <Navbar />
       </div>
-      <Footer />
     </div>
   )
 };
