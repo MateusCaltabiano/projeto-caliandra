@@ -1,0 +1,18 @@
+body {
+  flex-direction: column;
+  font-family: var(--font-family);
+}
+
+.NossaProposta {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1;
+}
+
+.NossaProposta_h1 {
+  margin-bottom: 10;
+  font-size: 52px;
+  text-align: center;
+  color: salmon;
+}

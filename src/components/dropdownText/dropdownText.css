@@ -1,0 +1,28 @@
+.dropdownText {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  justify-content: first baseline;
+  justify-content: center;
+  gap: 50px;
+}
+
+.dropdownText button {
+  font-family: var(--font-family);
+  font-size: 24px;
+  height: 100px;
+  width: 200px;
+  border-radius: 15px;
+  background: lightskyblue;
+}
+
+.dropdownText p {
+  font-family: var(--font-family);
+  align-self: center;
+  text-align: center;
+  margin: 50px;
+  font-size: 40px;
+}

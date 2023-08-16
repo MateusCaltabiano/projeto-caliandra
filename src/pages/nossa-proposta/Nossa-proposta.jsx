@@ -1,18 +1,17 @@
 import React from 'react';
 import './nossa-proposta.css';
 import { Header, Footer } from '../../containers';
-import { Navbar } from '../../components';
+import { Navbar, DropdownText } from '../../components';
 
-const NossaProposta = () => {
-    return (
-        <div className='NossaProposta'>
-            <div className='NossaProposta_bg'>
-                <Header />
-                <Navbar />
-            </div>
-            <Footer />
-        </div>
-    );
-}
+const NossaEquipe = () => {
+  return (
+    <div className='NossaEquipe'>
+      <Header />
+      <Navbar />
+      <h1 className='NossaProposta_h1'>Nossa Proposta</h1>
+      <DropdownText />
+    </div>
+  );
+};
 
-export default NossaProposta;
+export default NossaEquipe;
