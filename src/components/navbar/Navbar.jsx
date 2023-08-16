@@ -12,7 +12,7 @@ const Navbar = () => {
             <p><a href="QuemSomos">Quem somos</a></p>
             <p><a href="NossaProposta">Nossa Proposta</a></p>
             <p><a href="NossoEspaco">Nosso Espaço</a></p>
-            <p><a href="Nossa Equipe">Nossa equipe</a></p>
+            <p><a href="NossaEquipe">Nossa equipe</a></p>
             <p><a href="Contato">Contato</a></p>
             <p><a href="AgendeUmaVisita">Agende uma visita</a></p>
           </div>
