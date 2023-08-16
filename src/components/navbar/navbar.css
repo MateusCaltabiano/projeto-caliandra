@@ -28,7 +28,12 @@
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
+    transition: all .1s ease-in-out; 
     
     margin: 0 1rem;
     cursor: pointer
+}
+
+.caliandra__navbar-links_container p:hover {
+    transform: scale(1.2);
 }
