@@ -14,15 +14,27 @@ body {
 }
 
 .NossoEspaco_h1 {
-  padding-top: 25px;
+  margin-bottom: 0;
   font-size: 52px;
   text-align: center;
   color: salmon;
 }
 
 .NossoEspaco_p {
-  text-indent: 5%;
+  text-indent: 3%;
   font-size: 24px;
-  padding: 50px;
   text-align: justify;
+  word-wrap: break-word;
+}
+
+.NossoEspaco_main {
+  display: grid;
+  column-gap: 50px;
+  margin: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+img {
+  width: 100%;
 }
