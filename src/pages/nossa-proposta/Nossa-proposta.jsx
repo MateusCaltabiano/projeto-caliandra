@@ -1,17 +1,17 @@
 import React from 'react';
 import './nossa-proposta.css';
 import { Header, Footer } from '../../containers';
-import { Navbar, DropdownText } from '../../components';
+import { Navbar, DropdownText, Accordion } from '../../components';
 
-const NossaEquipe = () => {
+const NossaProposta = () => {
   return (
-    <div className='NossaEquipe'>
+    <div className='NossaProposta'>
       <Header />
       <Navbar />
       <h1 className='NossaProposta_h1'>Nossa Proposta</h1>
-      <DropdownText />
+      <Accordion />
     </div>
   );
 };
 
-export default NossaEquipe;
+export default NossaProposta;

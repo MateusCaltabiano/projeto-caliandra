@@ -1,2 +1,2 @@
 export { default as Navbar } from './navbar/Navbar';
-export { default as DropdownText } from './dropdownText/DropdownText';
+export { default as Accordion } from './accordion/Accordion';
