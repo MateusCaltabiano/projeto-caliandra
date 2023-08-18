@@ -6,10 +6,8 @@ import './App.css';
 const App = () => {
   return (
     <div className='App'>
-      <div className='bg'>
-        <Header />
-        <Navbar />
-      </div>
+      <Header />
+      <Navbar />
       <div className='footer-div'>
         <Footer />
       </div>

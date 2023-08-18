@@ -8,8 +8,10 @@ const NossaProposta = () => {
     <div className='NossaProposta'>
       <Header />
       <Navbar />
-      <h1 className='NossaProposta_h1'>Nossa Proposta</h1>
-      <Accordion />
+      <div className='NossaProposta_main'>
+        <h1 className='NossaProposta_h1'>Nossa Proposta</h1>
+        <Accordion />
+      </div>
       <div className='footer-div'>
         <Footer />
       </div>
