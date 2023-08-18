@@ -15,3 +15,8 @@ a {
   color: unset;
   text-decoration: none;
 }
+
+.footer-div {
+  margin-bottom: 10px;
+  margin-top: auto;
+}

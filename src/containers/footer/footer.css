@@ -1,11 +1,11 @@
 .caliandra__footer {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.caliandra__footer-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-  height: 200px;
+.caliandra__footer img {
+  height: 100px;
+  width: auto;
 }
