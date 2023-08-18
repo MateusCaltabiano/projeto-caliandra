@@ -8,6 +8,9 @@ const Contato = () => {
     <div className='Contato'>
       <Header />
       <Navbar />
+      <div className='footer-div'>
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -17,3 +17,8 @@ body {
   text-align: center;
   color: salmon;
 }
+
+.footer-div {
+  margin-bottom: 10px;
+  margin-top: auto;
+}

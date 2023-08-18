@@ -10,7 +10,7 @@ export const topics = [
   },
 
   {
-    topicName: 'Currículo',
+    topicName: 'Currículo Escolar',
     text: 'O currículo escolar é estruturado para o desenvolvimento de habilidades sociais, afetivas e cognitivas através das áreas de linguagem, matemática, ciências, artes visuais, musicalização e educação física. Para cada uma destas áreas do conhecimento utilizamos materiais de aprendizado dotados de um forte elemento autodidático, atrativos e convidativos à criança, dispostos de maneira a permitir uma exploração independente e interessada.',
   },
 ];

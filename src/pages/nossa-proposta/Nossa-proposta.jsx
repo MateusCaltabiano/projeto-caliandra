@@ -1,7 +1,7 @@
 import React from 'react';
 import './nossa-proposta.css';
 import { Header, Footer } from '../../containers';
-import { Navbar, DropdownText, Accordion } from '../../components';
+import { Navbar, Accordion } from '../../components';
 
 const NossaProposta = () => {
   return (
@@ -10,6 +10,9 @@ const NossaProposta = () => {
       <Navbar />
       <h1 className='NossaProposta_h1'>Nossa Proposta</h1>
       <Accordion />
+      <div className='footer-div'>
+        <Footer />
+      </div>
     </div>
   );
 };

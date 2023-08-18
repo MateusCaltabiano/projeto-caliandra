@@ -6,7 +6,7 @@ import instagram_icon from '../../assets/instagram_icon.png';
 const Footer = () => {
   return (
     <div className='caliandra__footer'>
-      <a href='https://wa.me/5561991892606' target='blank'>
+      <a href='https://wa.me/556198122667' target='blank'>
         <img
           className='caliandra__footer-whatsapp-icon'
           src={whatsapp_icon}

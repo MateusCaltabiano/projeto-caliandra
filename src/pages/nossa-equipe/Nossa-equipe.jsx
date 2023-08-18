@@ -8,6 +8,9 @@ const NossaEquipe = () => {
     <div className='NossaEquipe'>
       <Header />
       <Navbar />
+      <div className='footer-div'>
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -8,6 +8,9 @@ const AgendeUmaVisita = () => {
     <div className='AgendeUmaVisita'>
       <Header />
       <Navbar />
+      <div className='footer-div'>
+        <Footer />
+      </div>
     </div>
   );
 };

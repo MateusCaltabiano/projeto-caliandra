@@ -8,6 +8,9 @@ const QuemSomos = () => {
     <div className='QuemSomos'>
       <Header />
       <Navbar />
+      <div className='footer-div'>
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -35,3 +35,8 @@ body {
 img {
   width: 100%;
 }
+
+.footer-div {
+  margin-bottom: 10px;
+  margin-top: auto;
+}

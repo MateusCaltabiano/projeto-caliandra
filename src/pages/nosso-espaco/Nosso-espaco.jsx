@@ -29,6 +29,9 @@ const NossoEspaco = () => {
           Botânico.
         </p>
       </div>
+      <div className='footer-div'>
+        <Footer />
+      </div>
     </div>
   );
 };
