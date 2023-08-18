@@ -4,15 +4,12 @@ import { Header, Footer } from '../../containers';
 import { Navbar } from '../../components';
 
 const Contato = () => {
-    return (
-        <div className='Contato'>
-            <div className='Contato_bg'>
-                <Header />
-                <Navbar />
-            </div>
-            <Footer />
-        </div>
-    );
-}
+  return (
+    <div className='Contato'>
+      <Header />
+      <Navbar />
+    </div>
+  );
+};
 
 export default Contato;

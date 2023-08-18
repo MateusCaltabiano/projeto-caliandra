@@ -4,15 +4,12 @@ import { Header, Footer } from '../../containers';
 import { Navbar } from '../../components';
 
 const QuemSomos = () => {
-    return (
-        <div className='QuemSomos'>
-            <div className='QuemSomos_bg'>
-                <Header />
-                <Navbar />
-            </div>
-            <Footer />
-        </div>
-    );
-}
+  return (
+    <div className='QuemSomos'>
+      <Header />
+      <Navbar />
+    </div>
+  );
+};
 
 export default QuemSomos;

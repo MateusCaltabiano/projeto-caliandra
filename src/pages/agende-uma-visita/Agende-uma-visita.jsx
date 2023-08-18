@@ -4,15 +4,12 @@ import { Header, Footer } from '../../containers';
 import { Navbar } from '../../components';
 
 const AgendeUmaVisita = () => {
-    return (
-        <div className='AgendeUmaVisita'>
-            <div className='AgendeUmaVisita_bg'>
-                <Header />
-                <Navbar />
-            </div>
-            <Footer />
-        </div>
-    );
-}
+  return (
+    <div className='AgendeUmaVisita'>
+      <Header />
+      <Navbar />
+    </div>
+  );
+};
 
 export default AgendeUmaVisita;
