@@ -13,12 +13,24 @@ const AgendeUmaVisita = () => {
         <div className='tabela-visitas'>
           <table>
             <tr>
+              <td></td>
               <td>Segunda-feira</td>
               <td>Terça-feira</td>
               <td>Quarta-feira</td>
               <td>Quinta-feira</td>
+              <td>Sexta-feira</td>
             </tr>
             <tr>
+              <td>Manhã</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+            </tr>
+            <tr>
+              <td>Tarde</td>
+              <td>15h às 17h</td>
               <td>15h às 17h</td>
               <td>15h às 17h</td>
               <td>15h às 17h</td>
