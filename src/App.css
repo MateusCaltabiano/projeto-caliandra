@@ -17,6 +17,9 @@ a {
 }
 
 .footer-div {
-  margin-bottom: 10px;
+  margin-bottom: 10vh;
   margin-top: auto;
+}
+
+@media screen and (max-width: 1000px) {
 }

@@ -25,8 +25,7 @@
   padding: 2vh;
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 1rem;
   text-transform: capitalize;
 
   margin: 0 1rem;
@@ -39,4 +38,19 @@
 
 .caliandra__navbar-links_container p:hover {
   transform: scale(1.2);
+}
+
+@media screen and (max-width: 1000px) {
+  .caliandra__navbar {
+    overflow-y: auto;
+  }
+
+  .caliandra__navbar-links_container a {
+    font-size: 1rem;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0 0.5rem;
+  }
 }
