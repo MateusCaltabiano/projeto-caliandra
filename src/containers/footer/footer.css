@@ -2,11 +2,17 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 20px;
-  margin-top: 10px;
+  gap: 1vw;
+  margin-top: 2vh;
 }
 
 .caliandra__footer img {
-  height: 100px;
+  height: 5vw;
   width: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .caliandra__footer img {
+    height: 20vw;
+  }
 }
