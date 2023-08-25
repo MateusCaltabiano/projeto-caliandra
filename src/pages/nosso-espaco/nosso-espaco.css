@@ -1,5 +1,4 @@
 body {
-  flex-direction: column;
   font-family: var(--font-family);
 }
 
@@ -12,22 +11,22 @@ body {
 
 .NossoEspaco_h1 {
   margin-bottom: 0;
-  font-size: 52px;
+  font-size: 4rem;
   text-align: center;
   color: salmon;
 }
 
 .NossoEspaco_p {
   text-indent: 3%;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: justify;
   word-wrap: break-word;
 }
 
 .NossoEspaco_main {
   display: grid;
-  column-gap: 50px;
-  margin: 50px;
+  column-gap: 3rem;
+  margin: 0 3rem;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
@@ -39,4 +38,22 @@ img {
 .footer-div {
   margin-bottom: 10px;
   margin-top: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .NossoEspaco_h1 {
+    font-size: 3rem;
+  }
+
+  .NossoEspaco_main {
+    display: flex;
+    flex-direction: column;
+    column-gap: normal;
+    margin: 1rem;
+    gap: 1rem;
+  }
+
+  .NossoEspaco_p {
+    font-size: 1rem;
+  }
 }
