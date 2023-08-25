@@ -1,0 +1,39 @@
+.StaffGrid {
+  list-style: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 2rem;
+  gap: 20px;
+}
+
+.member-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightskyblue;
+  border-radius: 1rem;
+}
+
+.member-wrapper p {
+  margin: 0.5rem 1rem;
+  text-align: justify;
+  color: #0e54a4;
+  font-weight: 400;
+}
+
+.member-wrapper .about {
+  text-indent: 2rem;
+}
+
+.member-wrapper h3 {
+  color: #0e54a4;
+}
+
+.photo {
+  width: 10rem;
+  height: 16rem;
+}
