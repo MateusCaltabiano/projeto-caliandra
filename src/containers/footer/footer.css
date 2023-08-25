@@ -9,6 +9,12 @@
 .caliandra__footer img {
   height: 5vw;
   width: auto;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.caliandra__footer img:hover {
+  transform: scale(1.4);
 }
 
 @media screen and (max-width: 1000px) {
