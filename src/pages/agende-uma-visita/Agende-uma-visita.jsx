@@ -41,9 +41,7 @@ const AgendeUmaVisita = () => {
         <p>*Verificar disponibilidade via WhatsApp</p>
       </div>
 
-      <div className='footer-div'>
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 };

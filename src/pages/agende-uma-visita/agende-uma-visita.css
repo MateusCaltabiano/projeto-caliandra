@@ -12,19 +12,15 @@ body {
 }
 
 .AgendeUmaVisita_h1 {
-  margin-bottom: 10px;
-  font-size: 52px;
+  margin-bottom: 0.6rem;
+  text-align: center;
+  font-size: 4rem;
   color: salmon;
 }
 
 a {
   color: unset;
   text-decoration: none;
-}
-
-.footer-div {
-  margin-bottom: 10px;
-  margin-top: auto;
 }
 
 .tabela-visitas table,
@@ -37,9 +33,9 @@ td {
 td {
   color: white;
   background-color: #0e54a4;
-  font-size: 25px;
-  width: 220px;
-  height: 60px;
+  font-size: 1.5rem;
+  width: 13rem;
+  height: 4rem;
   text-align: center;
 }
 
@@ -51,6 +47,22 @@ td {
   justify-content: center;
 }
 
-p {
-  font-size: 24px;
+.AgendeUmaVisita_mainContent p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .AgendeUmaVisita_h1 {
+    font-size: 2.5rem;
+  }
+
+  .tabela-visitas th,
+  td {
+    font-size: 1rem;
+  }
+
+  .AgendeUmaVisita_mainContent p {
+    font-size: 1.3rem;
+  }
 }
