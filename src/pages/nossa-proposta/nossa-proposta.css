@@ -11,8 +11,8 @@ body {
 }
 
 .NossaProposta_h1 {
-  margin-bottom: 10px;
-  font-size: 4rem;
+  margin-bottom: 1vw;
+  font-size: 10vw;
   text-align: center;
   color: salmon;
 }
@@ -25,8 +25,14 @@ body {
   justify-content: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 600px) {
   .NossaProposta_h1 {
-    font-size: 2rem;
+    font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .NossaProposta_h1 {
+    font-size: 3vw;
   }
 }
