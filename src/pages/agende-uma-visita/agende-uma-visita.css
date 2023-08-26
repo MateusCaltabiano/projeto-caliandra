@@ -52,17 +52,17 @@ td {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 320px) {
   .AgendeUmaVisita_h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .tabela-visitas th,
   td {
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
 
   .AgendeUmaVisita_mainContent p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
