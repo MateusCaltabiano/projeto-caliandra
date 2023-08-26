@@ -22,3 +22,9 @@ a {
   font-size: 4rem;
   color: salmon;
 }
+
+@media screen and (max-width: 320px) {
+  .NossaEquipe h1 {
+    font-size: 2rem;
+  }
+}
