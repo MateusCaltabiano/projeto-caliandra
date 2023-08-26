@@ -37,3 +37,19 @@
   width: 10rem;
   height: 16rem;
 }
+
+@media screen and (max-width: 320px) {
+  .StaffGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .member-wrapper h3,
+  p {
+    font-size: 0.8rem;
+  }
+
+  .member-wrapper .about {
+    text-indent: 1rem;
+    font-size: 0.6rem;
+  }
+}
