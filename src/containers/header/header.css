@@ -11,9 +11,12 @@
   height: 25vh;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 320px) {
   .caliandra__header-img {
-    height: 20vh;
-    padding: 1vh;
+    height: 5rem;
+  }
+
+  .caliandra__header {
+    padding: 1rem 0;
   }
 }
