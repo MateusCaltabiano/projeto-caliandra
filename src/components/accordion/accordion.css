@@ -21,7 +21,7 @@ body {
 }
 
 .button {
-  font-size: 2.5rem;
+  font-size: 5vw;
   background-color: #008593;
   color: #fff;
   font-weight: 700;
@@ -37,15 +37,15 @@ body {
 }
 
 .control {
-  font-size: 2.5rem;
+  font-size: 5vw;
   margin-left: auto;
 }
 
 .text {
   text-align: justify;
-  font-size: 1.5rem;
-  padding: 1.5rem 12rem;
-  text-indent: 3rem;
+  font-size: 3vw;
+  padding: 1vw 5vw;
+  text-indent: 5%;
 }
 
 .accordion_item.active .button {
@@ -58,25 +58,35 @@ body {
   transition: height ease 0.2s;
 }
 .answer_wrapper.open {
-  height: 250px;
+  height: auto;
 }
 
-@media screen and (max-width: 320px) {
-  .text {
-    font-size: 0.7rem;
-    padding: 1rem;
-    text-indent: 1rem;
-  }
-
+@media screen and (min-width: 600px) {
   .button {
-    font-size: 1.5rem;
+    font-size: 3vw;
   }
 
   .control {
-    font-size: 1.5rem;
+    font-size: 3vw;
   }
 
-  .answer_wrapper.open {
-    height: auto;
+  .text {
+    font-size: 2vw;
+    padding: 1vw 15vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .button {
+    font-size: 2vw;
+  }
+
+  .control {
+    font-size: 2vw;
+  }
+
+  .text {
+    font-size: 1.3vw;
+    padding: 1vw 20vw;
   }
 }
