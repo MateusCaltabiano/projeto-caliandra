@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  overflow-y: auto;
 }
 
 .caliandra__navbar-links {
@@ -19,16 +20,17 @@
 
 .caliandra__navbar-links_container a {
   color: #0e54a4;
-  text-align: center;
   background-color: lightskyblue;
   border-radius: 1rem;
-  padding: 2vh;
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 1rem;
   text-transform: capitalize;
-
-  margin: 0 1rem;
+  font-size: 0.5rem;
+  display: block;
+  padding: 0.5rem;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 0.5rem;
   cursor: pointer;
 }
 
@@ -40,47 +42,38 @@
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 320px) {
-  .caliandra__navbar {
-    overflow-y: auto;
-  }
-
-  .caliandra__navbar-links_container a {
-    font-size: 0.5rem;
-    display: block;
-    padding: 0.5rem;
-    text-align: center;
-    white-space: nowrap;
-    margin: 0 0.5rem;
-  }
-}
-
 @media screen and (min-width: 321px) {
-  .caliandra__navbar {
-    overflow-y: auto;
-  }
-
   .caliandra__navbar-links_container a {
     font-size: 0.6rem;
-    display: block;
-    padding: 0.5rem;
-    text-align: center;
-    white-space: nowrap;
-    margin: 0 0.5rem;
   }
 }
 
 @media screen and (min-width: 376px) {
-  .caliandra__navbar {
-    overflow-y: auto;
-  }
-
   .caliandra__navbar-links_container a {
     font-size: 0.7rem;
-    display: block;
-    padding: 0.5rem;
-    text-align: center;
-    white-space: nowrap;
-    margin: 0 0.5rem;
+  }
+}
+
+@media screen and (min-width: 426px) {
+  .caliandra__navbar-links_container a {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .caliandra__navbar-links_container a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .caliandra__navbar-links_container a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .caliandra__navbar-links_container a {
+    font-size: 3rem;
   }
 }
