@@ -21,7 +21,7 @@
   color: #0e54a4;
   text-align: center;
   background-color: lightskyblue;
-  border-radius: 10px;
+  border-radius: 1rem;
   padding: 2vh;
   font-family: var(--font-family);
   font-weight: 500;
@@ -40,15 +40,15 @@
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 360px) {
   .caliandra__navbar {
     overflow-y: auto;
   }
 
   .caliandra__navbar-links_container a {
-    font-size: 1rem;
+    font-size: 0.5rem;
     display: block;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     white-space: nowrap;
     margin: 0 0.5rem;
