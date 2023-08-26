@@ -40,9 +40,9 @@ img {
   margin-top: auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 320px) {
   .NossoEspaco_h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .NossoEspaco_main {
@@ -54,6 +54,6 @@ img {
   }
 
   .NossoEspaco_p {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 }
