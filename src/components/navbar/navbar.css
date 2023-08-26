@@ -54,3 +54,33 @@
     margin: 0 0.5rem;
   }
 }
+
+@media screen and (min-width: 321px) {
+  .caliandra__navbar {
+    overflow-y: auto;
+  }
+
+  .caliandra__navbar-links_container a {
+    font-size: 0.6rem;
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0 0.5rem;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .caliandra__navbar {
+    overflow-y: auto;
+  }
+
+  .caliandra__navbar-links_container a {
+    font-size: 0.7rem;
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0 0.5rem;
+  }
+}
