@@ -3,11 +3,11 @@
   display: flex;
   justify-content: center;
   gap: 1vw;
-  margin-top: 2vh;
+  margin-top: 1rem;
 }
 
 .caliandra__footer img {
-  height: 5vw;
+  height: 10vw;
   width: auto;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -17,8 +17,14 @@
   transform: scale(1.4);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 600px) {
   .caliandra__footer img {
-    height: 2rem;
+    height: 7vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .caliandra__footer img {
+    height: 4vw;
   }
 }
