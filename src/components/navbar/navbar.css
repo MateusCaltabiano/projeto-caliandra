@@ -25,7 +25,7 @@
   font-family: var(--font-family);
   font-weight: 500;
   text-transform: capitalize;
-  font-size: 0.5rem;
+  font-size: 4vw;
   display: block;
   padding: 0.5rem;
   text-align: center;
@@ -42,38 +42,14 @@
   transform: scale(1.2);
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 600px) {
   .caliandra__navbar-links_container a {
-    font-size: 0.6rem;
+    font-size: 1.5vw;
   }
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 1000px) {
   .caliandra__navbar-links_container a {
-    font-size: 0.7rem;
-  }
-}
-
-@media screen and (min-width: 426px) {
-  .caliandra__navbar-links_container a {
-    font-size: 0.75rem;
-  }
-}
-
-@media screen and (min-width: 769px) {
-  .caliandra__navbar-links_container a {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  .caliandra__navbar-links_container a {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (min-width: 1441px) {
-  .caliandra__navbar-links_container a {
-    font-size: 3rem;
+    font-size: 1vw;
   }
 }
