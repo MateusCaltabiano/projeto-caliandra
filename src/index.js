@@ -16,16 +16,16 @@ render(
   <BrowserRouter>
     <Routes>
       <Route path='/projeto-caliandra' element={<App />} />
-      <Route path='/projeto-caliandraQuemSomos' element={<QuemSomos />} />
-      <Route path='/projeto-caliandraContato' element={<Contato />} />
+      <Route path='/projeto-caliandra/QuemSomos' element={<QuemSomos />} />
+      <Route path='/projeto-caliandra/Contato' element={<Contato />} />
       <Route
-        path='/projeto-caliandraNossaProposta'
+        path='/projeto-caliandra/NossaProposta'
         element={<NossaProposta />}
       />
-      <Route path='/projeto-caliandraNossoEspaco' element={<NossoEspaco />} />
-      <Route path='/projeto-caliandraNossaEquipe' element={<NossaEquipe />} />
+      <Route path='/projeto-caliandra/NossoEspaco' element={<NossoEspaco />} />
+      <Route path='/projeto-caliandra/NossaEquipe' element={<NossaEquipe />} />
       <Route
-        path='/projeto-caliandraAgendeUmaVisita'
+        path='/projeto-caliandra/AgendeUmaVisita'
         element={<AgendeUmaVisita />}
       />
     </Routes>
