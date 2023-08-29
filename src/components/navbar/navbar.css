@@ -34,11 +34,11 @@
   cursor: pointer;
 }
 
-.caliandra__navbar-links_container p {
+.caliandra__navbar-links_container a {
   transition: all 0.2s ease-in-out;
 }
 
-.caliandra__navbar-links_container p:hover {
+.caliandra__navbar-links_container a:hover {
   transform: scale(1.2);
 }
 
