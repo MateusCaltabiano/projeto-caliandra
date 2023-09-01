@@ -13,32 +13,42 @@ const AgendeUmaVisita = () => {
         <div className='tabela-visitas'>
           <table>
             <tr>
-              <td></td>
-              <td>Segunda-feira</td>
-              <td>Terça-feira</td>
-              <td>Quarta-feira</td>
-              <td>Quinta-feira</td>
-              <td>Sexta-feira</td>
-            </tr>
-            <tr>
+              <td>
+                *Verificar disponibilidade
+                <br />
+                via WhatsApp
+              </td>
               <td>Manhã</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
-              <td>--</td>
+              <td>Tarde</td>
             </tr>
             <tr>
-              <td>Tarde</td>
+              <td>Segunda-feira</td>
+              <td>--</td>
+              <td>15 às 17h</td>
+            </tr>
+            <tr>
+              <td>Terça-feira</td>
+              <td>--</td>
               <td>15h às 17h</td>
+            </tr>
+            <tr>
+              <td>Quarta-feira</td>
+              <td>--</td>
               <td>15h às 17h</td>
+            </tr>
+            <tr>
+              <td>Quinta-feira</td>
+              <td>--</td>
               <td>15h às 17h</td>
-              <td>15h às 17h</td>
+            </tr>
+            <tr>
+              <td>Sexta-feira</td>
+              <td>--</td>
               <td>15h às 17h</td>
             </tr>
           </table>
         </div>
-        <p>*Verificar disponibilidade via WhatsApp</p>
+        <p></p>
       </div>
 
       <Footer />
