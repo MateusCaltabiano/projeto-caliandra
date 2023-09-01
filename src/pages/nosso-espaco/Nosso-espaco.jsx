@@ -20,7 +20,6 @@ const NossoEspaco = () => {
           aprendizado.
         </p>
         <img src={logo} alt='foto1' />
-        <img src={logo} alt='foto2' />
         <p className='NossoEspaco_p'>
           Ainda vamos adicionar muitos detalhes ao nosso espaço, buscando
           oferecer o que há de mais inovador e belo para nossas crianças. Venha

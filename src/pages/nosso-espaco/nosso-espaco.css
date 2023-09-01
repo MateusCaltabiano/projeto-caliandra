@@ -10,29 +10,30 @@ body {
 }
 
 .NossoEspaco_h1 {
-  margin-bottom: 0;
-  font-size: 4rem;
+  margin-bottom: 1vw;
+  font-size: 10vw;
   text-align: center;
   color: salmon;
 }
 
 .NossoEspaco_p {
   text-indent: 3%;
-  font-size: 1.5rem;
+  font-size: 3vw;
   text-align: justify;
-  word-wrap: break-word;
 }
 
 .NossoEspaco_main {
   display: grid;
-  column-gap: 3rem;
-  margin: 0 3rem;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
+  flex: 1;
+  row-gap: 5vw;
+  margin: 0 10vw;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
 }
 
 img {
-  width: 100%;
+  width: auto;
+  height: 30vw;
 }
 
 .footer-div {
@@ -40,20 +41,30 @@ img {
   margin-top: auto;
 }
 
-@media screen and (max-width: 320px) {
-  .NossoEspaco_h1 {
-    font-size: 2rem;
+@media screen and (min-width: 600px) {
+  .NossoEspaco_p {
+    font-size: 2vw;
   }
 
-  .NossoEspaco_main {
-    display: flex;
-    flex-direction: column;
-    column-gap: normal;
-    margin: 1rem;
-    gap: 1rem;
+  img {
+    height: 25vw;
+  }
+
+  .NossoEspaco_h1 {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .NossoEspaco_h1 {
+    font-size: 3vw;
+  }
+
+  img {
+    height: 20vw;
   }
 
   .NossoEspaco_p {
-    font-size: 0.7rem;
+    font-size: 1.8vw;
   }
 }

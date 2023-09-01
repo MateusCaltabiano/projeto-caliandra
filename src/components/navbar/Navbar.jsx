@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className='caliandra__navbar-links'>
         <div className='caliandra__navbar-links_container'>
           <Link to='/'>Home</Link>
-          <Link to='/QuemSomos'>QuemSomos</Link>
+          <Link to='/QuemSomos'>Quem Somos</Link>
           <Link to='/NossaProposta'>Nossa Proposta</Link>
           <Link to='/NossoEspaco'>Nosso Espaço</Link>
           <Link to='/NossaEquipe'>Nossa Equipe</Link>
