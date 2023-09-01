@@ -1,17 +1,17 @@
 .StaffGrid {
   list-style: none;
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 0 2rem;
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5vw;
+  gap: 5vw;
 }
 
 .member-wrapper {
   height: 100%;
-  width: 100%;
+  width: auto;
   display: flex;
-  flex-direction: column;
+  flex: 1;
   justify-content: center;
   align-items: center;
   background: lightskyblue;
@@ -19,37 +19,76 @@
 }
 
 .member-wrapper p {
-  margin: 0.5rem 1rem;
+  margin: 2vw 4vw;
   text-align: justify;
   color: #0e54a4;
   font-weight: 400;
+  font-size: 2vw;
 }
 
 .member-wrapper .about {
-  text-indent: 2rem;
+  text-indent: 3%;
 }
 
 .member-wrapper h3 {
   color: #0e54a4;
+  font-size: 3vw;
+}
+
+.member-info {
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .photo {
-  width: 10rem;
-  height: 16rem;
+  height: 30vw;
+  width: auto;
+  margin: 0 3vw;
+  border-radius: 50rem;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 600px) {
   .StaffGrid {
-    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .member-wrapper h3,
-  p {
-    font-size: 0.8rem;
+  .member-wrapper {
+    flex-direction: column;
   }
 
-  .member-wrapper .about {
-    text-indent: 1rem;
-    font-size: 0.6rem;
+  .member-wrapper h3 {
+    font-size: 2vw;
+  }
+
+  .member-wrapper p {
+    font-size: 1.2vw;
+    margin: 1vw 2vw;
+  }
+
+  .photo {
+    height: 15vw;
+    margin-top: 1vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .StaffGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .member-wrapper h3 {
+    font-size: 1.5vw;
+  }
+
+  .member-wrapper p {
+    font-size: 0.7vw;
+    margin: 0.5vw 1vw;
+  }
+
+  .photo {
+    height: 10vw;
   }
 }
