@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/projeto-caliandra/static/css/main.cef65963.css",
-    "main.js": "/projeto-caliandra/static/js/main.3a336447.js",
+    "main.css": "/projeto-caliandra/static/css/main.5bc04470.css",
+    "main.js": "/projeto-caliandra/static/js/main.87f4c079.js",
     "static/media/caliandra-logo.png": "/projeto-caliandra/static/media/caliandra-logo.8e719d75d361964db964.png",
     "static/media/instagram_icon.png": "/projeto-caliandra/static/media/instagram_icon.0040b8228c6f43bf43a1.png",
     "static/media/whatsapp_icon.png": "/projeto-caliandra/static/media/whatsapp_icon.5a7254ffab382b909a55.png",
     "index.html": "/projeto-caliandra/index.html",
-    "main.cef65963.css.map": "/projeto-caliandra/static/css/main.cef65963.css.map",
-    "main.3a336447.js.map": "/projeto-caliandra/static/js/main.3a336447.js.map"
+    "main.5bc04470.css.map": "/projeto-caliandra/static/css/main.5bc04470.css.map",
+    "main.87f4c079.js.map": "/projeto-caliandra/static/js/main.87f4c079.js.map"
   },
   "entrypoints": [
-    "static/css/main.cef65963.css",
-    "static/js/main.3a336447.js"
+    "static/css/main.5bc04470.css",
+    "static/js/main.87f4c079.js"
   ]
 }
