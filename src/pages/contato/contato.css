@@ -16,6 +16,35 @@ a {
   text-decoration: none;
 }
 
+.Contato_main {
+  display: grid;
+  flex: 1;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: space-evenly;
+}
+
+.Contato_main a {
+  text-align: center;
+  margin: 5vw 10vw;
+  font-size: 5vw;
+}
+
+.contato_whatsapp {
+  background-color: greenyellow;
+}
+
+.contato_instagram {
+  background-color: palevioletred;
+}
+
+.contato_email {
+  background-color: brown;
+}
+
+.contato_telefone {
+  background-color: gray;
+}
+
 .footer-div {
   margin-bottom: 10px;
   margin-top: auto;
