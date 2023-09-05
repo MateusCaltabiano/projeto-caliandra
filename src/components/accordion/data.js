@@ -6,7 +6,7 @@ export const topics = [
 
   {
     topicName: 'Ambiente',
-    text: 'Para tanto, criamos um ambiente que estimula a curiosidade, permite a independência de forma segura e produtiva, fomenta a autonomia no buscar e aprender, inspira à cultura e, por fim, permite que os interesses inerentes e naturais de cada criança sejam explorados de forma a potencializar sua aquisição de conhecimento e sua descoberta do mundo. Além disso, a Escola Caliandra preza por um espaço em que impere o respeito, a cooperação, a cortesia e a moderação. ',
+    text: 'Criamos um ambiente que estimula a curiosidade, permite a independência de forma segura e produtiva, fomenta a autonomia no buscar e aprender, inspira à cultura e, por fim, permite que os interesses inerentes e naturais de cada criança sejam explorados de forma a potencializar sua aquisição de conhecimento e sua descoberta do mundo. Além disso, a Escola Caliandra preza por um espaço em que impere o respeito, a cooperação, a cortesia e a moderação. ',
   },
 
   {
