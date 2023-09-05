@@ -16,10 +16,9 @@ a {
   text-decoration: none;
 }
 
-.tabela-visitas table,
-th,
+.tabela-visitas th,
 td {
-  border: 0.1vw solid white;
+  border: 0.5vw solid white;
 }
 
 .tabela-visitas th,
@@ -50,6 +49,7 @@ td {
   td {
     font-size: 2vw;
     padding: 2vw 4vw;
+    border: 0.2vw solid white;
   }
 }
 
@@ -62,5 +62,6 @@ td {
   td {
     font-size: 1vw;
     padding: 1vw 2vw;
+    border: 0.1vw solid white;
   }
 }
