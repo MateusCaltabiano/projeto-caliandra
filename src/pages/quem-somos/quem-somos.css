@@ -32,3 +32,15 @@ a {
   margin-bottom: 10px;
   margin-top: auto;
 }
+
+@media screen and (min-width: 600px) {
+  .QuemSomos_main img {
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .QuemSomos_main img {
+    width: 10%;
+  }
+}
