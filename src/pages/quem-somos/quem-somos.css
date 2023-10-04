@@ -11,6 +11,18 @@ body {
   min-height: 100vh;
 }
 
+.QuemSomos_main {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.QuemSomos_main img {
+  height: auto;
+  width: 20%;
+}
+
 a {
   color: unset;
   text-decoration: none;

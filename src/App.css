@@ -16,10 +16,61 @@ a {
   text-decoration: none;
 }
 
+.App {
+  display: flex;
+  flex: 1;
+}
+
+.home-page_main {
+  display: flex;
+  flex: 1;
+  gap: 1vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1vw;
+}
+
+.home-page_main p {
+  font-size: 1rem;
+  text-indent: 5%;
+  text-align: justify;
+}
+
+.home-page_main img {
+  height: auto;
+  width: 20%;
+}
+
 .footer-div {
-  margin-bottom: 10vh;
   margin-top: auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 600px) {
+  .home-page_main img {
+    width: 10%;
+  }
+
+  .home-page_main h1 {
+    font-size: 5vw;
+  }
+
+  .home-page_main p {
+    margin: 0 5vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .home-page_main img {
+    width: 5%;
+  }
+
+  .home-page_main h1 {
+    font-size: 3vw;
+  }
+
+  .home-page_main p {
+    margin: 0 20vw;
+    font-size: 1.6vw;
+  }
 }
