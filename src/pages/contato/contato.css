@@ -17,32 +17,55 @@ a {
 }
 
 .Contato_main {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   flex: 1;
-  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
   align-content: space-evenly;
 }
 
-.Contato_main a {
+.Contato_main p {
   text-align: center;
-  margin: 5vw 10vw;
   font-size: 5vw;
+  border-radius: 10px;
+}
+
+.Contato_main img {
+  margin: 2vw 5vw;
+  width: auto;
+  height: 10vw;
 }
 
 .contato_whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: greenyellow;
+  margin: 0 5vw;
 }
 
 .contato_instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: palevioletred;
+  margin: 0 5vw;
 }
 
 .contato_email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: brown;
+  margin: 0 5vw;
 }
 
 .contato_telefone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: gray;
+  margin: 0 5vw;
 }
 
 .footer-div {
