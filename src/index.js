@@ -20,7 +20,6 @@ render(
       <Route path='Contato' element={<Contato />} />
       <Route path='NossaProposta' element={<NossaProposta />} />
       <Route path='NossoEspaco' element={<NossoEspaco />} />
-      <Route path='NossaEquipe' element={<NossaEquipe />} />
       <Route path='AgendeUmaVisita' element={<AgendeUmaVisita />} />
     </Routes>
   </HashRouter>,

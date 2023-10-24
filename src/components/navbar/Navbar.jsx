@@ -13,7 +13,6 @@ const Navbar = () => {
           <Link to='/QuemSomos'>Quem Somos</Link>
           <Link to='/NossaProposta'>Nossa Proposta</Link>
           <Link to='/NossoEspaco'>Nosso Espaço</Link>
-          <Link to='/NossaEquipe'>Nossa Equipe</Link>
           <Link to='/Contato'>Contato</Link>
           <Link to='/AgendeUmaVisita'>Agende Uma Visita</Link>
         </div>
