@@ -82,3 +82,67 @@ a {
   margin-bottom: 10px;
   margin-top: auto;
 }
+
+@media screen and (min-width: 600px) {
+  .Contato_main {
+    gap: 1.5vw;
+  }
+
+  .Contato_main p {
+    font-size: 2vw;
+    margin: 0vw 5vw;
+  }
+
+  .Contato_main img {
+    height: 5vw;
+    margin-bottom: 2vw;
+  }
+
+  .contato_whatsapp {
+    margin: 0 15vw;
+  }
+
+  .contato_instagram {
+    margin: 0 15vw;
+  }
+
+  .contato_email {
+    margin: 0 15vw;
+  }
+
+  .contato_telefone {
+    margin: 0 15vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .Contato_main {
+    gap: 1vw;
+  }
+
+  .Contato_main p {
+    font-size: 1.5vw;
+    margin: 0 5vw;
+  }
+
+  .Contato_main img {
+    height: 3vw;
+    margin: 1vw 0;
+  }
+
+  .contato_whatsapp {
+    margin: 0 30vw;
+  }
+
+  .contato_instagram {
+    margin: 0 30vw;
+  }
+
+  .contato_email {
+    margin: 0 30vw;
+  }
+
+  .contato_telefone {
+    margin: 0 30vw;
+  }
+}
