@@ -32,9 +32,10 @@ a {
 }
 
 .home-page_main p {
-  font-size: 1rem;
+  font-size: 0.6rem;
   text-indent: 5%;
   text-align: justify;
+  margin: 5vw;
 }
 
 .home-page_main img {
