@@ -21,13 +21,15 @@ a {
   flex-direction: column;
   flex: 1;
   justify-content: center;
-  align-content: space-evenly;
+  gap: 3vw;
 }
 
 .Contato_main p {
   text-align: center;
   font-size: 5vw;
   border-radius: 10px;
+  margin: 2vw 5vw;
+  color: #0e54a4;
 }
 
 .Contato_main img {
@@ -38,33 +40,41 @@ a {
 
 .contato_whatsapp {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  background-color: greenyellow;
+  background-color: lightskyblue;
+  border-radius: 15px;
   margin: 0 5vw;
 }
 
 .contato_instagram {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  background-color: palevioletred;
+  background-color: lightskyblue;
+  border-radius: 15px;
   margin: 0 5vw;
 }
 
 .contato_email {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  background-color: lightskyblue;
   align-items: center;
-  background-color: brown;
   margin: 0 5vw;
 }
 
 .contato_telefone {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  background-color: lightskyblue;
+  justify-content: space-between;
   align-items: center;
-  background-color: gray;
+  border-radius: 15px;
   margin: 0 5vw;
 }
 

@@ -19,7 +19,7 @@ const Contato = () => {
         </div>
         <div className='contato_instagram'>
           <img src={instagram_icon} />
-          <p>caliandra.escola</p>
+          <p>@caliandra.escola</p>
         </div>
         <div className='contato_email'>
           <img src={email_icon} alt='imagem_email' />
@@ -29,9 +29,6 @@ const Contato = () => {
           <img src={telephone_icon} alt='imagem_telefone' />
           <p>(61) 3034-2809</p>
         </div>
-      </div>
-      <div className='footer-div'>
-        <Footer />
       </div>
     </div>
   );
