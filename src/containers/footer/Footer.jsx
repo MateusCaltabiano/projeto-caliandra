@@ -2,6 +2,7 @@ import React from 'react';
 import './footer.css';
 import whatsapp_icon from '../../assets/whatsapp_icon.png';
 import instagram_icon from '../../assets/instagram_icon.png';
+import gmail_icon from '../../assets/gmail.png';
 
 const Footer = () => {
   return (
@@ -19,6 +20,13 @@ const Footer = () => {
           src={instagram_icon}
           alt='instagram icon'
         />
+      </a>
+      <a href='mailto:caliandra.escola@gmail.com' target='blank'>
+        <img
+          className='caliandra__footer-instagram-icon'
+          src={gmail_icon}
+          alt='gmail_icon'
+        ></img>
       </a>
     </div>
   );
