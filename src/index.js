@@ -10,6 +10,7 @@ import NossaProposta from './pages/nossa-proposta/Nossa-proposta';
 import NossoEspaco from './pages/nosso-espaco/Nosso-espaco';
 import NossaEquipe from './pages/nossa-equipe/Nossa-equipe';
 import AgendeUmaVisita from './pages/agende-uma-visita/Agende-uma-visita';
+import NossasTurmas from './pages/nossas-turmas/Nossas-turmas';
 
 const rootElement = document.getElementById('root');
 render(
@@ -21,6 +22,7 @@ render(
       <Route path='NossaProposta' element={<NossaProposta />} />
       <Route path='NossoEspaco' element={<NossoEspaco />} />
       <Route path='AgendeUmaVisita' element={<AgendeUmaVisita />} />
+      <Route path='NossasTurmas' element={<NossasTurmas />} />
     </Routes>
   </HashRouter>,
   rootElement

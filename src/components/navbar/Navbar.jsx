@@ -15,6 +15,7 @@ const Navbar = () => {
           <Link to='/NossoEspaco'>Nosso Espaço</Link>
           <Link to='/Contato'>Contato</Link>
           <Link to='/AgendeUmaVisita'>Agende Uma Visita</Link>
+          <Link to='/NossasTurmas'>Nossas Turmas</Link>
         </div>
       </div>
     </div>
