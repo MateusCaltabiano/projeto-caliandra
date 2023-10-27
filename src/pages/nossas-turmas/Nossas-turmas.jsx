@@ -1,7 +1,7 @@
 import React from 'react';
 import './nossas-turmas.css';
 import { Header, Footer } from '../../containers';
-import { Navbar } from '../../components';
+import { Navbar, Classes } from '../../components';
 
 const NossasTurmas = () => {
   return (
@@ -25,6 +25,7 @@ const NossasTurmas = () => {
           uma área externa de Vida Prática com uma horta e uma linda
           Brinquedoteca.
         </p>
+        <Classes />
       </div>
       <div className='footer-div'>
         <Footer />
