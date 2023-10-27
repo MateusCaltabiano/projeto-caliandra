@@ -9,3 +9,17 @@ body {
   min-height: 100vh;
   flex: 1;
 }
+
+.NossasTurmas_main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5vw;
+}
+
+.NossasTurmas_main p {
+  text-indent: 3%;
+  font-size: 3vw;
+  text-align: justify;
+}
