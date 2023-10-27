@@ -14,9 +14,9 @@ const AgendeUmaVisita = () => {
           <table>
             <tr>
               <td>
-                *Verificar disponibilidade
+                *Entre em contato para
                 <br />
-                via WhatsApp
+                verificar disponibilidade!
               </td>
               <td>Manhã</td>
               <td>Tarde</td>
@@ -24,7 +24,7 @@ const AgendeUmaVisita = () => {
             <tr>
               <td>Segunda-feira</td>
               <td>--</td>
-              <td>15 às 17h</td>
+              <td>15h às 17h</td>
             </tr>
             <tr>
               <td>Terça-feira</td>
