@@ -1,21 +1,72 @@
 .ClassList {
+  margin-top: 3vw;
   list-style: none;
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
+  gap: 5vw;
 }
 
 .classItem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: lightyellow;
+  border-radius: 10px;
+  gap: 2vw;
 }
 
 .className {
+  font-size: 6vw;
 }
 
 .classAge {
+  font-size: 4vw;
 }
 
 .classFeatures {
+  list-style: none;
+  font-size: 3vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.classFeatures li {
+  background-color: lightskyblue;
+  border-radius: 5px;
+  margin: 1vw 0;
+  padding: 5px 10px;
 }
 
 .classText {
+  font-size: 3vw;
+  margin: 2vw 5vw;
+}
+
+@media screen and (min-width: 600px) {
+  .className {
+    font-size: 5vw;
+  }
+
+  .classAge {
+    font-size: 3vw;
+  }
+
+  .classFeatures {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .className {
+    font-size: 3vw;
+  }
+
+  .classAge {
+    font-size: 1.5vw;
+  }
+
+  .classFeatures {
+    font-size: 1.8vw;
+  }
 }

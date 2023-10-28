@@ -11,7 +11,7 @@ export const classes = [
       'Musicalização com método MLT',
       'Atividades de psicomotricidade',
     ],
-    text: 'Para esta turma procuramos criar ambientes gostosos e aconchegante, onde a criança possa se sentir segura e brincar livremente. Alén dos materiais do método Montessori, essa sala inclui uma área de "faz de conta com uma cozinha de madeira e blocos de construção".',
+    text: 'Para esta turma procuramos criar ambientes gostosos e aconchegantes, onde a criança possa se sentir segura e brincar livremente. Além dos materiais do método Montessori, essa sala inclui uma área de "faz de conta" com uma cozinha de madeira e blocos de construção.',
   },
 
   {
@@ -41,6 +41,6 @@ export const classes = [
       'Musicalização com método MLT',
       'Atividades de psicomotricidade',
     ],
-    text: 'Além dos materiais tradicionais do métodos, esta sala possui um computador para que os alunos façam pesquisas e projetos. A sala conta com um projetor que é utilizado para enriquecer e contextualizar o ensino através de ferramentas modernas e educativas.',
+    text: 'Além dos materiais tradicionais dos métodos, esta sala possui um computador para que os alunos façam pesquisas e projetos. A sala conta com um projetor que é utilizado para enriquecer e contextualizar o ensino através de ferramentas modernas e educativas.',
   },
 ];

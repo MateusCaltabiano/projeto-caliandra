@@ -23,3 +23,23 @@ body {
   font-size: 3vw;
   text-align: justify;
 }
+
+@media screen and (min-width: 600px) {
+  .NossasTurmas_main h1 {
+    font-size: 5vw;
+  }
+
+  .NossasTurmas_main p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .NossasTurmas_main h1 {
+    font-size: 3vw;
+  }
+
+  .NossasTurmas_main p {
+    font-size: 1.8vw;
+  }
+}
