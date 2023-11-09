@@ -18,7 +18,7 @@ const Accordion = () => {
       {topics.map((topic, index) => (
         <AccordionItem
           onToggle={() => handleToggle(index)}
-          active={clicked === index}
+          active='active'
           key={index}
           topic={topic}
         />

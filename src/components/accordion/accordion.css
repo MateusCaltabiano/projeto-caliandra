@@ -30,6 +30,8 @@ body {
   padding: 1.5rem 1rem;
   cursor: pointer;
   border: none;
+  justify-content: center;
+  border-radius: 15px;
 }
 
 .button:hover {
@@ -49,7 +51,7 @@ body {
 }
 
 .accordion_item.active .button {
-  background-color: #4588d4;
+  background-color: #0e54a4;
 }
 .answer_wrapper {
   height: 0;
@@ -72,7 +74,6 @@ body {
 
   .text {
     font-size: 2vw;
-    padding: 1vw 15vw;
   }
 }
 
@@ -87,6 +88,5 @@ body {
 
   .text {
     font-size: 1.3vw;
-    padding: 1vw 20vw;
   }
 }
