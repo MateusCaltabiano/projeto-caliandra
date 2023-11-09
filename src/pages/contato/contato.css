@@ -22,6 +22,7 @@ a {
   flex: 1;
   justify-content: center;
   gap: 3vw;
+  margin-bottom: 1vw;
 }
 
 .Contato_main p {

@@ -13,6 +13,7 @@ const Contato = () => {
       <Header />
       <Navbar />
       <div className='Contato_main'>
+        <h1>Contato</h1>
         <div className='contato_whatsapp'>
           <img src={whatsapp_icon} />
           <p>(61) 9812-2697</p>
