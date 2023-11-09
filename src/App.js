@@ -11,13 +11,13 @@ const App = () => {
       <Navbar />
       <div className='home-page_main'>
         <img src={cone_icon} />
-        <h1 className='home-page_h1'>Site em construção!</h1>
+        <h1 className='home-page_h1'>Site ainda em construção!</h1>
         <p>
-          As páginas que já possuem conteúdo são: Nossa Proposta, Nosso Espaço e
-          Agende Uma Visita. Elas podem ser acessadas a partir da barra de
-          navegação no topo da página! Também é possível enviar uma mensagem por
-          WhatsApp e acessar nosso Instagram a partir dos botões no fim da
-          página.
+          Enretanto, já possuimos alguns conteúdos sobre nossa escola! Basta
+          utilizar a barra de navegação acima para acessar as páginas que já
+          estão prontas. Também é possível utilizar os botões abaixo para
+          acessar nosso Instagram, iniciar uma conversa pelo WhatsApp ou enviar
+          um email.
         </p>
       </div>
       <div className='footer-div'>
