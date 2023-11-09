@@ -10,29 +10,20 @@ body {
   flex: 1;
 }
 
-.NossaProposta_h1 {
-  margin-bottom: 1vw;
-  font-size: 10vw;
-  text-align: center;
-  color: salmon;
-}
-
 .NossaProposta_main {
   display: flex;
   flex-direction: column;
   flex: 1;
   align-content: center;
   justify-content: center;
+  margin: 0vw 5vw;
 }
 
 @media screen and (min-width: 600px) {
-  .NossaProposta_h1 {
-    font-size: 5vw;
+  .NossaProposta_main {
+    margin: 0vw 20vw;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .NossaProposta_h1 {
-    font-size: 3vw;
-  }
 }
