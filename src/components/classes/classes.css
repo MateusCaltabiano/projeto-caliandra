@@ -17,11 +17,11 @@
 }
 
 .className {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 .classAge {
-  font-size: 4vw;
+  font-size: 3.5vw;
 }
 
 .classFeatures {
@@ -36,6 +36,7 @@
   border-radius: 5px;
   margin: 1vw 0;
   padding: 5px 10px;
+  font-size: 2.5vw;
 }
 
 .classText {
@@ -45,28 +46,36 @@
 
 @media screen and (min-width: 600px) {
   .className {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   .classAge {
-    font-size: 3vw;
+    font-size: 2.8vw;
   }
 
-  .classFeatures {
+  .classFeatures li {
     font-size: 2vw;
+  }
+
+  .classItem {
+    gap: 0.5vw;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .className {
-    font-size: 3vw;
+    font-size: 2.2vw;
   }
 
   .classAge {
     font-size: 1.5vw;
   }
 
-  .classFeatures {
-    font-size: 1.8vw;
+  .classFeatures li {
+    font-size: 1.1vw;
+  }
+
+  .classItem {
+    gap: 0vw;
   }
 }
