@@ -21,9 +21,12 @@ body {
 
 @media screen and (min-width: 600px) {
   .NossaProposta_main {
-    margin: 0vw 20vw;
+    margin: 0vw 15vw;
   }
 }
 
 @media screen and (min-width: 1000px) {
+  .NossaProposta_main {
+    margin: 0 25vw;
+  }
 }
