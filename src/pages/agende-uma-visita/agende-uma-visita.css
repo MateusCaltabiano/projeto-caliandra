@@ -30,6 +30,7 @@ td {
   height: auto;
   padding: 3vw 6vw;
   text-align: center;
+  border-radius: 10px;
 }
 
 .AgendeUmaVisita_mainContent {
