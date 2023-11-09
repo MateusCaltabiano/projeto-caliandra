@@ -19,3 +19,15 @@ h1 {
   text-align: center;
   color: salmon;
 }
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 3vw;
+  }
+}
