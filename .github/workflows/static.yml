@@ -1,8 +1,7 @@
-# Workflow for building and deploying a React application to GitHub Pages
 name: Deploy React App to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the main branch
   push:
     branches: ["main"]
 
@@ -11,9 +10,9 @@ on:
 
 # Sets permissions required for deployment
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: read # Necessário para o checkout
+  pages: write   # Necessário para o deploy
+  id-token: write # Necessário para autenticação
 
 # Ensures only one deployment runs at a time
 concurrency:
@@ -25,33 +24,41 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    
     runs-on: ubuntu-latest
+    
     steps:
+      # 1. Checkout (atualizado para v4)
       - name: Checkout repository
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4
+        
       # --- REQUIRED BUILD STEPS FOR REACT APP ---
+      # 2. Setup Node (atualizado para v4)
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          # Use a stable Node version (e.g., 18 or 20)
           node-version: '18'
           cache: 'npm'
+          
       - name: Install dependencies
         run: npm install
+        
       - name: Build project (Creates the 'build' folder)
         run: npm run build
+        
       # ------------------------------------------
-
+      
+      # 3. Configurar Pages
       - name: Setup Pages
         uses: actions/configure-pages@v3
-
+        
+      # 4. Upload artifact (mantendo v4 e path correto)
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          # CRITICAL FIX: The build output for a React app is in the 'build' folder, not 'src'
-          path: './build' 
-
+          path: './build'
+          
+      # 5. Deploy
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
